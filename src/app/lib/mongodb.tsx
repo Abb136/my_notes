@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 
 // Connection URL
-const url = 'mongodb+srv://Adashti:Ab66095950@cluster-1.j0odgyr.mongodb.net/&tlsAllowInvalidCertificates=true';
+const url = 'mongodb+srv://Adashti:Ab66095950@cluster-1.j0odgyr.mongodb.net/';
 let client:MongoClient| undefined= undefined
 
 // Database Name
