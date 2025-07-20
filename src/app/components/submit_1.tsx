@@ -7,7 +7,7 @@ export default function Submit_1({}:{Note?:string}) {
     <div className="relative w-full max-w-md mx-auto mt-6 p-4 border rounded-xl shadow-sm max-h-96">
       <form action={handelNote}>
         <textarea data-slot="textarea"
-        name="Note"
+        name="firstNote"
         className="border-input placeholder:text-muted-foreground 
         focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 
         dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 
