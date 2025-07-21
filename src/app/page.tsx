@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Submit from "./components/notes_form";
 import Submit_1 from "./components/submit_1";
 import{ getClient }from "./lib/mongodb";

@@ -1,4 +1,5 @@
 'use server'
+import { redirect } from 'next/navigation';
 import{ getClient }from "./mongodb";
 
 const client = getClient();
@@ -18,5 +19,6 @@ export const handelNote = async(form:FormData)=>{
   }
   else if(action === 'delete')
     await data.deleteOne({note:`${newNote}`});
+  redirect('/');
 }
 
