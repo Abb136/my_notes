@@ -9,6 +9,5 @@ export default async function Home() {
   return (<>
   <Submit_1/>
   {data.map((i)=><Submit key={i.note} note={i.note}/>)}
-  
   </>);
 }
